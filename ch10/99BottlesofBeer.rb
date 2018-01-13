@@ -101,7 +101,7 @@ current = more
 more = 0 
 
 if current > 0
-  num_string = num_string + ones_place[write-1]
+  num_string = num_string + ones_place[current-1]
 end
 
 
